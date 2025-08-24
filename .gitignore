@@ -1,0 +1,58 @@
+
+# --- Browsers and Electron Apps ---
+1Password/
+BraveSoftware/
+chromium/
+chromium-flags.conf # This *could* be useful, but often regenerated or user-specific
+Code/
+Electron/
+elecwhat/
+google-chrome/
+google-chrome-beta/
+google-chrome-unstable/
+microsoft-edge-dev/
+obsidian/
+Signal/
+vivaldi/
+vivaldi-snapshot/
+
+# --- System-level Caches & State ---
+
+dconf/
+fcitx/
+fcitx5/
+fontconfig/
+ibus/
+pulse/
+systemd/
+user-dirs.dirs
+user-dirs.locale
+
+# --- Large Applications / Data Directories ---
+
+github-copilot/
+kdenlive-layoutsrc # User-specific layout
+kdenliverc          # User-specific settings, often changes a lot
+mpv/
+nautilus/ # Often contains extensions or user-specific state that isn't config
+Pinta/
+qBittorrent/
+spotify/
+Typora/
+xournalpp/
+yay/ # Package manager cache/build dir
+
+# --- Specific Tool Caches / Logs ---
+# These are often temporary or non-essential for configuration sync.
+btop/ # Often contains cache/history
+lazygit/ # Cache/history/session
+neofetch/ # Often cache files
+
+
+
+
+# --- Desktop Environment / Theme Caches ---
+gtk-3.0/
+gtk-4.0/
+
+config - typically tracked
